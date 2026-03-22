@@ -18,6 +18,7 @@
   --info: #3b82f6;
   --surface: #ffffff;
   --border: #e5e7eb;
+  --highlight: #fef9c3;
 }
 
 :root.dark {
@@ -33,6 +34,7 @@
   --info: #2563eb;
   --surface: #1f1b21;
   --border: #3a3543ff;
+  --highlight: #fef08a;
 }
 
 @theme {
@@ -48,6 +50,7 @@
   --color-info: var(--info);
   --color-surface: var(--surface);
   --color-border: var(--border);
+  --color-highlight: var(--highlight);
   --font-primary: "Rubik", sans-serif;
   --font-heading: "Merriweather", serif;
 }
