@@ -17,9 +17,11 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <header className="flex justify-between items-center p-4 bg-surface border-b border-border">
-          <h1 className="text-3xl font-semibold m-0 text-foreground">
-            Shinobi
-          </h1>
+          <Link href="/" className="text-foreground hover:text-primary">
+            <h1 className="text-3xl font-semibold m-0 text-foreground">
+              Shinobi
+            </h1>
+          </Link>
           <nav className="flex items-center gap-4">
             <Link href="/about" className="text-foreground hover:text-primary">About</Link>
             <DarkModeToggle />
